@@ -1,4 +1,4 @@
-//Problem no 12
+// Problem no 12
 
 #include <stdio.h>
 
@@ -18,7 +18,7 @@ int main()
         }
     }
 
-    //swapping a[i,j] with a[j,i]
+    // swapping a[i,j] with a[j,i]
     for(i = 0; i < r; i++)
     {
         for(j = i; j < c; j++)
@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    //swapping number of rows and columns
+    // swapping number of rows and columns
     temp = r;
     r = c;
     c = temp;

@@ -1,4 +1,4 @@
-//Problem no 10
+// Problem no 10
 
 #include <stdio.h>
 
@@ -15,7 +15,7 @@ int main()
         for(j = 0; j < n; j++)
         {
             scanf("%d", &arr[i][j]);
-            if(i == j)        //if user inputs a diagonal element, then add it to sum
+            if(i == j)        // If user inputs a diagonal element, then add it to sum.
             {
                 sum = sum+arr[i][j];
             }

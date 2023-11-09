@@ -1,4 +1,4 @@
-//Problem no 06
+// Problem no 06
 
 #include <stdio.h>
 
@@ -15,7 +15,7 @@ int main()
 
     for(i = 0, j = n-1; i < n/2; i++, j--)
     {
-        //swapping 1st and last element, then 2nd and 2nd last element and so on
+        // swapping 1st and last element, then 2nd and 2nd last element and so on
         temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

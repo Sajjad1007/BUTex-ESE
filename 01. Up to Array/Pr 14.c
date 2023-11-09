@@ -1,4 +1,4 @@
-//Problem no 14
+// Problem no 14
 
 #include <stdio.h>
 
@@ -26,7 +26,7 @@ int main()
         for(j = 0; j < c; j++)
         {
             scanf("%d", &arr2[i][j]);
-            arr3[i][j] = arr1[i][j]-arr2[i][j];        //subtracting each element of two matrices
+            arr3[i][j] = arr1[i][j]-arr2[i][j];        // subtracting each element of two matrices
 
         }
     }

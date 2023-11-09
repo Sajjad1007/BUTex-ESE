@@ -1,14 +1,14 @@
-//Problem no 02
+// Problem no 02
 
 #include <stdio.h>
 
-#define INF 100000       //Assume that 100000 is INF(infinity).
+#define INF 100000       // Assume that 100000 is INF(infinity).
 
 int main()
 {
     int i, n;
-    int max = -INF;      //Max is initialized to minus infinity = -100000(very small value).
-    int min = INF;       //Min is initialized to infinity = 100000(very large value).
+    int max = -INF;      // Max is initialized to minus infinity = -100000(very small value).
+    int min = INF;       // Min is initialized to infinity = 100000(very large value).
     int max_indx;
     int min_indx;
     printf("Enter number of elements = ");

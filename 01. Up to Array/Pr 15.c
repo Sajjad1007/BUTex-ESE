@@ -1,4 +1,4 @@
-//Problem no 15
+// Problem no 15
 
 #include <stdio.h>
 
@@ -40,11 +40,14 @@ int main()
         }
     }
 
-    //multiplication of two matrices
-    for(i = 0; i < r3; i++){
-        for(j = 0; j < c3; j++){
+    // multiplication of two matrices
+    for(i = 0; i < r3; i++)
+    {
+        for(j = 0; j < c3; j++)
+        {
             int sum = 0;
-            for(k = 0; k < c1; k++){
+            for(k = 0; k < c1; k++)
+            {
                 sum = sum+(arr1[i][k]*arr2[k][j]);
             }
             arr3[i][j] = sum;

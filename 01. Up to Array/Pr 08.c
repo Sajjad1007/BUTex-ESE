@@ -1,4 +1,4 @@
-//Problem no 08
+// Problem no 08
 
 #include <stdio.h>
 
@@ -12,14 +12,14 @@ int main()
     int arr[m][n];
     printf("\n");
 
-    //taking input from user
+    // taking input from user
     for(i = 0; i < m; i++)
     {
         printf("Enter array %d : ", i+1);
         for(j = 0; j < n; j++)
         {
             scanf("%d", &arr[i][j]);
-            sum = sum+arr[i][j];        //calculating sum after taking each input
+            sum = sum+arr[i][j];        // calculating sum after taking each input
         }
     }
 

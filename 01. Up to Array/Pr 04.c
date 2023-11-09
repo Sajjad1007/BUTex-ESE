@@ -1,4 +1,4 @@
-//Problem no 04
+// Problem no 04
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main()
         }
     }
 
-    //Frequency means number of times an element occurs in an array.
+    // Frequency means number of times an element occurs in an array.
     printf("\nFrequency of %d = %d\n", key, cnt);
     return 0;
 }

@@ -1,4 +1,4 @@
-//Problem no 07
+// Problem no 07
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main()
 
     for(i = 0; i < n-1; i++)
     {
-        //finding the index of the smallest element from index i to j
+        // finding the index of the smallest element from index i to j
         min_indx = i;
         for(int j = i+1; j < n; j++)
         {
@@ -27,7 +27,7 @@ int main()
             }
         }
 
-        //swapping the smallest element with the element of index i
+        // swapping the smallest element with the element of index i
         int temp = arr[i];
         arr[i] = arr[min_indx];
         arr[min_indx] = temp;

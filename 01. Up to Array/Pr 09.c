@@ -1,4 +1,4 @@
-//Problem no 09
+// Problem no 09
 
 #include <stdio.h>
 
@@ -7,8 +7,8 @@
 int main()
 {
     int i, j, m, n;
-    int max = -INF;      //Max is initialized to minus infinity = -100000 (very small value)
-    int min = INF;       //Min is initialized to infinity = 100000 (very large value)
+    int max = -INF;      // Max is initialized to minus infinity = -100000 (very small value).
+    int min = INF;       // Min is initialized to infinity = 100000 (very large value).
     int max_row_indx;
     int max_col_indx;
     int min_row_indx;

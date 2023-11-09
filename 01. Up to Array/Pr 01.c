@@ -1,4 +1,4 @@
-//Problem no 01
+// Problem no 01
 
 #include <stdio.h>
 
@@ -10,14 +10,14 @@ int main()
     int arr[n];
     printf("Enter %d elements : ", n);
 
-    //taking input from user
+    // taking input from user
     for(i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
-        sum = sum+arr[i];     //calculating sum after taking each input
+        sum = sum+arr[i];     // calculating sum after taking each input
     }
 
-    //sum is a integer, so multiplying sum by 1.0 to get the avg in floating point number
+    // sum is a integer, so multiplying sum by 1.0 to get the avg in floating point number
     double avg = (sum*1.0)/n;
     printf("\nSum = %d\n", sum);
     printf("Average = %lf\n", avg);

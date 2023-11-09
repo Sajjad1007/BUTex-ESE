@@ -1,4 +1,4 @@
-//Problem no 03
+// Problem no 03
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main()
         }
     }
 
-    //If i < n, that means the execution has entered the if(arr[i] == key) and then breaks out from the loop.
+    // If i < n, that means the execution has entered the if(arr[i] == key) and then breaks out from the loop.
     if(i < n)
     {
         printf("\n%d is found in index %d\n", key, i);

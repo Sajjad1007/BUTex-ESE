@@ -1,4 +1,4 @@
-//Problem no 11
+// Problem no 11
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main()
         for(j = 0; j < c; j++)
         {
             scanf("%d", &arr[i][j]);
-            arr[i][j] = f*arr[i][j];    //multiplying each entry by the factor
+            arr[i][j] = f*arr[i][j];    // multiplying each entry by the factor
         }
     }
 

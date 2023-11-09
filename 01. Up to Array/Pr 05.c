@@ -1,4 +1,4 @@
-//Problem no 05
+// Problem no 05
 
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main()
     for(i = 0; i < n; i++)
     {
         printf(" %d", arr2[i]);
-        arr2[i] = arr1[i];   //Copy elements of array 1 to array 2.
+        arr2[i] = arr1[i];   // Copy elements of array 1 to array 2.
     }
 
     printf("\n\nAfter copying elements\n\n");
